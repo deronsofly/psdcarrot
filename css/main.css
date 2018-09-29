@@ -1,0 +1,232 @@
+nav{
+	background-color: orange;
+	margin-bottom: 15px;
+	height: 90px;
+}
+nav img{
+	vertical-align: bottom;
+	padding-left: 20px;
+	height: 35px;
+	width: 35px;
+	color: transparent;
+}
+a{
+	text-decoration:none;
+	color: white;
+}
+ul{
+	width: 100%;
+}
+li{
+	display: inline-block;
+	padding: 20px;
+}
+.right{
+	display: inline-block;
+	width: 49%;
+	font-size: 19px;
+	position: bottom 20px;
+}
+.left{
+	display: inline-block;
+	width: 25%;
+	vertical-align: middle;
+	color: white;
+	padding-left: 25px;
+	padding-right: 150px;
+	font-size: 19px;
+}
+
+.logo{
+	text-align: left;
+	display: inline-block;
+	width: 45%;
+	height: 400px;
+	/*background-color: orange;*/
+}
+.logo img{
+	width: 75%;
+	height: 90%;
+	padding-left: 65px;
+}
+.info{
+	display: inline-block;
+	text-align: right;
+	width: 45%;
+	height: 400px;
+	vertical-align: bottom;
+}
+input{
+	padding: 20px 55px;
+	background-color: silver;
+	vertical-align: bottom;
+}
+h2{
+	display: inline-block;
+	font-size: 37px;
+	width: 80%;
+	color: orange;
+	text-align: left;
+	padding:  20px 10px;
+}
+.green{
+	color: lightgreen;
+	background-color: inherit;
+}
+.name{
+	/*font-weight: bold;*/
+	background-color: inherit;
+	color: inherit;
+}
+footer{
+	background-color: lightgreen;
+	height: 90px;
+	width: 100%;
+	padding-top: 15px;
+	text-align: center;
+}
+button{
+	text-align: left;
+}
+.grnbtn{
+	background-color: lightgreen;
+	color: white;
+	padding: 15px 30px;
+	margin-right: 10px;
+	text-align: left;
+}
+.orgbtn{
+	background-color: orange;
+	color: white;
+	padding: 15px 30px;
+	margin-left: 10px;
+}
+.trade{
+	font-size: 35%;
+	vertical-align: top;
+	background-color: inherit;
+	color: inherit;
+}
+
+i{
+	font-size: 30px;
+	padding: 20px;
+	color: white;
+}
+@media(max-width: 1242px){
+	
+	nav{
+		vertical-align: middle;
+	}
+	ul{
+		width: 100%;
+	}
+	li{
+		padding: 15px;
+	}
+	.left{
+		font-size: 16px;
+		padding-right: 80px;
+
+	}
+	.right{
+		font-size: 16px;
+		width: 60%
+	}
+	.info{
+		height: 50%;
+		vertical-align: top;
+		padding-bottom: 15px;
+	}
+	h2{
+		font-size: 32px;
+	}
+	i{
+		font-size: 25px;
+	}
+}
+@media(max-width: 842px){
+	 nav{
+	 	font-size: 15px;
+	 }
+	 ul{
+	 	width: 100%;
+	 }
+	 li{
+	 	font-size: 14px;
+	 	padding: 17px;
+	 }
+	 .right{
+	 	width: 68%;
+	 }
+	 .left{
+	 	padding-right: 0px;
+	 } 
+	 .info{
+	 	width: 45%;
+	 }
+	 .logo img{
+	 	width: 100%
+	 	height:50%;
+	 }
+	 h2{
+	 	font-size: 25px;
+	 }
+	 .orgbtn{
+	 	padding: 13px 18px;
+	 }
+	 .grnbtn{
+	 	padding: 13px 18px;
+	 }
+}
+@media(max-width: 716px){
+	nav{
+		vertical-align: middle;
+		font-size: 7px;
+		height: 65px;
+	}
+	ul{
+		font-size: 7px;
+		padding-left: 4px; 
+	}
+	li{
+		font-size: 13px;
+		padding: 9px;
+		vertical-align: middle;
+	}
+
+	h2{
+		font-size: 25px;
+		height: 50%;
+	}
+	.orgbtn{
+	 	padding: 8px 10px;
+	 }
+	 .grnbtn{
+	 	padding: 8px 10px;
+	 }
+	 footer{
+	 	height: 65px;
+	 }
+}
+@media(max-width: 553px){
+	nav img{
+		display: none;
+	}
+	.left{
+		vertical-align: middle;
+		font-size: 20px;
+		padding: none;
+	}
+	.logo{
+		width: 0%;
+	}
+	.logo img{
+		display: none;
+		width: 0%;
+	}
+	.info{
+		width: 70%;
+		margin: 0 auto;
+	}
+}
